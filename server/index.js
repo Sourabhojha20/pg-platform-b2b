@@ -46,5 +46,5 @@ if (require.main === module) {
 
 // Handle unhandled promise rejections
 process.on('unhandledRejection', (err, promise) => {
-  console.log(`Error: ${err.message}`);
+  console.log(`Unhandled Rejection: ${err.message}`);
 });
